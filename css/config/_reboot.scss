@@ -1,0 +1,27 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  color: $primary;
+}
+
+svg {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: $primary;
+}
+input:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+ul,li{
+  list-style: none;
+}

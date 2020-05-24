@@ -1,0 +1,37 @@
+$base-font-size: 1rem;
+$base-line-height: 1.5;
+$font-xxl: $base-font-size * 2.25;
+$font-xl: $base-font-size * 1.5;
+$font-l: $base-font-size * 1.25;
+$font-m: $base-font-size;
+$font-s: $base-font-size * 0.8;
+
+
+
+@function toRem($unit) {
+  @return ($unit / $base-font-size) * 1rem;
+}
+
+$font-xl: toRem(80px); 
+$font-l: toRem(64px); 
+$font-m: toRem(24px);
+$font-s: toRem(20px);
+
+body, html {
+  font-size: $base-font-size;
+  // font-style:italic;
+  font-family: Roboto,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+}
+
+h1{
+  font-size: $font-xl;
+  line-height: 94px;
+}
+h2{
+  font-size: $font-l;
+  line-height: 75px;
+}
+p,li,ul{
+  font-size: 24px;
+  line-height: 42px;
+}
