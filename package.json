@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pandaachu/-indiv-home-work-week-2#readme",
   "dependencies": {
+    "animate-sass": "^0.8.2",
     "bootstrap": "^4.5.0"
   }
 }

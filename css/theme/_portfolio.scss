@@ -1,12 +1,4 @@
-// 0: 0,
-// 1: toRem(8px),
-// 2: toRem(16px),
-// 3: toRem(24px),
-// 4: toRem(32px),
-// 5: toRem(40px),
-// 6: toRem(48px),
-// 7: toRem(56px),
-// 8: toRem(64px),
+
 .l-section {
     &--bg-black {
         background-color: $secondary;
@@ -31,11 +23,11 @@
     &-work {
         background: url(../images/photo-1561291386-5be50364cfb5.png) no-repeat center center;
         background-size: cover;
-        padding-top: 64px;
+        // padding-top: 64px;
         padding-bottom: 162px;
     }
     &-footer {
-        padding-top: 64px;
+        // padding-top: 64px;
         padding-bottom: 80px;
     }
 }
